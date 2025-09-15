@@ -2,24 +2,24 @@ package restaurante;
 
 public class Item {
 	
-		private String nome;
-		private double preco;
+		private String nomeDoItem;
+		private double precoDoItem;
 				
 		public Item(String nome, double preco) {
-			this.nome = nome;
-			this.preco = preco;
+			this.nomeDoItem = nome;
+			this.precoDoItem = preco;
 		}
 
 		public String getNome() {
-			return nome;
+			return nomeDoItem;
 		}
 
 
 		public double getPreco() {
-			return preco;
+			return precoDoItem;
 		}
 
 		public void exibeItem() {
-			System.out.println(nome + "- RS" + preco);
+			System.out.println(nomeDoItem + " - R$ " + precoDoItem);
 		}
 }

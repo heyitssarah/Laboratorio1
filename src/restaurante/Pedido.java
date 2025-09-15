@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Pedido {
 
-	private int cont = 1;
+	private static int cont = 1;
 	private int numeroDoPedido;
 	private String nomeDoCliente;
 	private ArrayList<Item> itens;
@@ -29,7 +29,7 @@ public class Pedido {
 	 public void exibeResumo() {
 		 System.out.println("\n========================================");
 		 System.out.println(" Restaurante Hello, food! ★");
-		 System.out.println("Sua refeição perfeita começa aqui");
+		 System.out.println(" Sua refeição perfeita começa aqui");
 		 System.out.println("========================================");
 		 System.out.println("Pedido N°: " + numeroDoPedido);
 		 System.out.println("Cliente: " + nomeDoCliente);
