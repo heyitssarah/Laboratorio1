@@ -70,7 +70,7 @@ public class Sistema {
 			pedido.exibeResumo();
 		}
 		
-		//Remvovendo o pedido
+		//Removendo o pedido
 		private static void removePedido(ArrayList<Pedido> lista, Scanner leitor) {
 			System.out.println("Qual o número do pedido quer você deseja remover ?");
 			int num= leitor.nextInt();
