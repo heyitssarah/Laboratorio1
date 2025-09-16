@@ -1,6 +1,8 @@
 package restaurante;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class Sistema {
@@ -31,7 +33,7 @@ public class Sistema {
 				listarPedidos(listaDePedidos);
 				break;
 			case "4":
-				System.out.println("Encerrando a execução do programa");
+				System.out.println("Encerrando a execução do programa. Até a próxima ☺");
 				break;
 			default:
 				System.out.println("Operação inválida. Digite um número de 1 a 4.");
@@ -64,7 +66,7 @@ public class Sistema {
 			
 			lista.add(pedido);
 			
-			System.out.println("\n=== Resumo do Pedido ===");
+			System.out.println("\n》 RESUMO DO PEDIDO 《");
 			pedido.exibeResumo();
 		}
 		
@@ -83,6 +85,7 @@ public class Sistema {
 				}
 			}
 			if (!removido) {
+				
 				System.out.println("Não foi possível remover. Pedido " + num + " não foi encontrado ☹");
 				
 			}	
@@ -90,8 +93,10 @@ public class Sistema {
 		//Listando todos os pedidos
 		private static void listarPedidos(ArrayList<Pedido> lista) {
 			if (lista.isEmpty()) {
-				System.out.println("Nnenhum pedido foi registrado");
+				System.out.println("Nenhum pedido foi registrado");
 			} else {
+				Collections.sort(lista, Comparator.comparingInt(Pedido::getNumeroDoPedido));
+				System.out.println("》 LISTA DE PEDIDOS 《");
 				for (Pedido p : lista) {
 					p.exibeResumo();
 				}
