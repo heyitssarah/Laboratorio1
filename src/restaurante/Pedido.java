@@ -44,6 +44,10 @@ public class Pedido {
 		 System.out.println(" Obrigado pela preferência! ☺ ");
 		 System.out.println("========================================\n");
 	 }
+
+	 public int getNumeroDoPedido() {
+		 return numeroDoPedido;
+	 }
 }
 
 
