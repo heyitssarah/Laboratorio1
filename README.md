@@ -1,4 +1,4 @@
-# :👨‍🍳​: Sistema de Gerenciamento de Pedidos de um Restaurante
+# 👨‍🍳​ Sistema de Gerenciamento de Pedidos de um Restaurante
 
 ### :mag_right: Sobre
 Este é um sistema de gerenciamento de pedidos para um restaurante, desenvolvido em **Java**.  
