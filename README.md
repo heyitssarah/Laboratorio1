@@ -23,8 +23,8 @@ Ele trabalha com conceitos como encapsulamento, composição e coleções. Permi
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/heyitssarah">
-        <img src="https://github.com/heyitssarah.png" width="100px;" alt="Sarah Lima"/>
+      <a href="https://github.com/sarahiaa">
+        <img src="https://github.com/sarahiaa.png" width="100px;" alt="Sarah Lima"/>
         <br />
         <sub><b>Sarah Lima</b></sub>
       </a>
